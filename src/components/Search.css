@@ -1,0 +1,40 @@
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end ;
+    background-image: url(../Assets/car-vehicle-automotive.jpg);
+    height: 440px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+.search input{
+    height:32px;
+    width: 500px;
+    margin-bottom: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 2px solid;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.search-button{
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    height: 32px;
+    width: 150px;
+    background-color: rgb(53, 53, 53);
+    color: rgb(255, 255, 255);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.data-output{
+    background-color: black;
+}
